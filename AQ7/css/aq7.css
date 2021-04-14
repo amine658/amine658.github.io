@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to right, white,  rgb(0, 132, 255)); 
+}
+ header img{
+    width: 150px;
+    height: 150px;
+    padding: 0px 10px;
+    margin-top: -25px;}
+    ul{
+        list-style: none;
+    }
+    .logo{
+        margin: auto;
+         width: 85%;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+  header nav ul li{
+     margin-right: 20px;
+      display: inline-block;
+      text-transform: uppercase;
+      font-weight: bolder;}
+      header nav ul li a {
+          text-decoration: none;
+          color: black;
+          font-size: 20px;
+      }
+      /*__________image____*/
+      .image img{
+          width: 100%;
+          height: 600px;
+          object-fit: cover;
+      }
+      .h{
+        top: 60%;
+        transform: translateY(-80%);
+        text-align: right;
+        margin-left: -100px;
+        color: rgb(12, 3, 3);
+        margin-top: -450px;
+        width: 100%;
+        height: 50px;
+      }
+      .h h1{
+          font-size: 40px;
+      }
+      .b{
+        width: 100%;
+        top: 60%;
+        transform: translateY(-50%);
+        text-align: right;
+        color: #fff;
+        margin-left: -90px;
+    }
+
+       
+       .b button{
+              width: 200px;
+              text-align: center;
+              padding:20px 0 ;
+              border: 3px solid black;
+              border-radius: 20px;
+              margin: 10px 10px ;
+              font-weight: bold;
+              border: none;
+              cursor: pointer;
+              background: rgb(0, 110, 255);
+              position: relative;
+              overflow: hidden;
+            outline: 0;
+        margin-top: 90px;}
+               .b button {
+                  text-decoration: none;
+                 color:rgb(24, 22, 22);
+                font-size: 30px;}
+
+                .b button:hover{
+                    opacity: 1.5;
+                    background: white;
+
+                }
+ .p h2{
+     margin-top: 300px;
+     text-align: center;
+padding: 20px;
+font-family: Comic Sans MS;
+font-weight: bolder;
+font-size: 30px;
+ } 
+  .contenent{
+	width: 100%;
+	min-height: 100px;
+	background-color: white;
+	margin: 10px auto 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+}
+.box{
+	background-color:azure;
+   position:relative;
+   width:300px;
+   height:400px;
+   margin:15px;
+   transition: 1s;
+   display: inline-block;
+    margin: auto;
+   margin-top: 1%;
+
+}
+.box img{
+	width: 300px;
+	height: 300px;
+    margin-left: 0px;
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+
+}
+
+.box:hover img{
+	margin-left: -30px;
+
+}
+/*888F8*/
+footer{
+    background-color: rgb(6, 168, 92);
+    line-height: 24px;
+    color:white;
+   }
+   .fot{
+    max-width: 1080px;
+    height: 260px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 100px;
+  } 
+  footer h3{
+      font-size: 30px;
+      padding-block: 16px;
+  } 
+   .fot a{
+      display: block;
+      padding-block: 12px;
+      color: rgb(14, 13, 13);
+      text-decoration: none;
+      opacity: 0.65;
+  } 
+  
+  footer .fot a:hover{
+      opacity: 1;
+      color: rgb(240, 220, 220);
+      font-size: 20px;
+  }
+  footer input{
+    border-style: solid;
+    line-height: 15px;
+    padding: 12px 20px;
+    font-size: 20px;
+    width: 100%;
+    margin-block:8px ;
+    border-radius: 8px;
+    border-width: 2px;
+  
+}
+footer input[type='email']{
+    background-color: transparent;
+    border-color: black;
+    color: rgb(17, 16, 16);
+    outline: 0;
+}
+footer input[type='email']:hover,
+footer input[type='email']:focus{
+    border-color:white;
+    color: black;
+    padding: 20px;
+}
+footer button{
+    background-color: rgb(243, 230, 230);
+    color: rgb(170, 111, 23);
+    text-transform: uppercase;
+    border: none;
+
+}
+footer button:hover{
+    background-color: white;
+    color: black;
+   }
+    footer button a:hover{
+        font-size: 20px;}
